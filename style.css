@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Georgia;
+}
+body {
+    background: rgb(44, 44, 44);
+    padding-bottom: 10em;
+}
+
+.cv {
+    
+    width: 800px;
+    background: antiquewhite;
+    margin: 40px auto;
+    display: flex;
+}
+
+.left {
+    width: 250px;
+    padding: 25px 30px;
+}
+.right {
+    width: calc(100% - 250px);
+    padding: 25px 30px;
+}
+
+.name {
+    padding-bottom: 20px;
+}
+.title {
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    width: 600px;
+    color: black;
+}
+
+#CV {
+    padding-left: 266px;
+    padding-bottom: 40px;
+    width: 800px;
+}
+.text {
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+    width: 600px;
+}
